@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dejota Estudio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+      Diseño arquitectónico que marca la diferencia
+    </h1>
+    <p class="text-lg md:text-xl text-gray-600 max-w-2xl mb-8">
+      Proyectos únicos, funcionales y con identidad. Creamos espacios pensados para durar.
+    </p>
+    <a href="#contacto" class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800">
+      Contactar
+    </a>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-12 text-center">Servicios</h2>
+
+    <div class="grid md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="text-xl font-semibold mb-3">Arquitectura</h3>
+        <p class="text-gray-600">Diseño y desarrollo de proyectos arquitectónicos personalizados.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-3">Interiorismo</h3>
+        <p class="text-gray-600">Espacios funcionales, estéticos y adaptados a tu estilo de vida.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-3">Reformas</h3>
+        <p class="text-gray-600">Transformamos espacios existentes en algo completamente nuevo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section class="bg-gray-100 py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Sobre nosotros</h2>
+      <p class="text-gray-700">
+        En Dejota Estudio trabajamos desde una visión contemporánea de la arquitectura,
+        combinando diseño, funcionalidad y detalle en cada proyecto.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 px-6 max-w-xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Contacto</h2>
+    <p class="text-gray-600 mb-8">
+      Cuéntanos tu proyecto y te responderemos lo antes posible.
+    </p>
+
+    <form class="flex flex-col gap-4">
+      <input type="text" placeholder="Nombre" class="border p-3 rounded">
+      <input type="email" placeholder="Email" class="border p-3 rounded">
+      <textarea placeholder="Mensaje" class="border p-3 rounded"></textarea>
+      <button class="bg-black text-white py-3 rounded hover:bg-gray-800">
+        Enviar
+      </button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-10 text-gray-500 text-sm">
+    © 2026 Dejota Estudio
+  </footer>
+
+</body>
+</html>
